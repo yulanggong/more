@@ -1,0 +1,21 @@
+
+html {
+	background:#eee;
+}
+body {
+	font-size:14px;
+	font-family:"Microsoft Yahei","微软雅黑", "Hiragino Sans GB","WenQuanYi Micro Hei",Tahoma,Arial,Helvetica,STHeiti;
+	width:500px;
+	padding:20px;
+	background:#fff;
+	margin:20px auto;
+	line-height:1.5;
+	border-radius:6px;
+	box-shadow:0 0 10px rgba(0,0,0,.5);
+}
+.level1 {
+	margin-left:20px;
+}
+li {
+	margin-bottom:10px;
+}
