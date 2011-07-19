@@ -1,33 +1,39 @@
 <!doctype html>
+<html>
+<head>
 <title>如何使用SetGen</title>
 <style type="text/css">body{background:#eee}</style>
-<div style='font-size:14px;
-				font-family:"Microsoft Yahei","微软雅黑", "Hiragino Sans GB","WenQuanYi Micro Hei",Tahoma,Arial,Helvetica,STHeiti;
-				width:500px;
-				padding:20px;
-				background:#fff;
-				margin:20px auto;
-				line-height:1.5;
-				border:1px solid #ccc;
-				border-radius:6px;
-				box-shadow:0 0 10px rgba(0,0,0,.5);'>
-<h1>如何使用SetGen</h1>
-	<h2>"安装"到浏览器</h2>
-	<ul>
-		<li style="margin-bottom:10px;"><b>非IE6浏览器</b><br>
-			把<a href="javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(d){e=C=' ';z=d+m;d=d>0?d:0;for(i=d;i<z;i++){p='';t=(i+p).length;for(j=0;j<l-t;j++){p+='0'};i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)};U=e+'<a href=# onclick=D(';V=')>';W='</a>';T='<hr><center><form onsubmit=D(this.b.value*1)>'+(d?U+(d-m)+V+'<'+d+W:e)+'<input name=b>'+U+z+V+z+'>'+W+'</form><hr>';document.body.innerHTML=T+C+T};a=function(s){C+='<img onerror=this.parentNode.removeChild(this) src='+R[1]+s+R[3]+'>'};D(b)};void(0)">SetGen</a>拖到书签栏上或收藏夹里(IE显示收藏夹的快捷键是Ctrl+I)。
+</head>
+<body>
+	<div style='font-size:14px;
+					font-family:"Microsoft Yahei","微软雅黑", "Hiragino Sans GB","WenQuanYi Micro Hei",Tahoma,Arial,Helvetica,STHeiti;
+					width:500px;
+					padding:20px;
+					background:#fff;
+					margin:20px auto;
+					line-height:1.5;
+					border:1px solid #ccc;
+					border-radius:6px;
+					box-shadow:0 0 10px rgba(0,0,0,.5);'>
+	<h1>如何使用SetGen</h1>
+		<h2>"安装"到浏览器</h2>
+		<ul>
+			<li style="margin-bottom:10px;"><b>非IE6浏览器</b><br>
+				把<a href="javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(d){e=C=' ';z=d+m;d=d>0?d:0;for(i=d;i<z;i++){p='';t=(i+p).length;for(j=0;j<l-t;j++){p+='0'};i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)};U=e+'<a href=# onclick=D(';V=')>';W='</a>';T='<hr><center><form onsubmit=D(this.b.value*1)>'+(d?U+(d-m)+V+'<'+d+W:e)+'<input name=b>'+U+z+V+z+'>'+W+'</form><hr>';document.body.innerHTML=T+C+T};a=function(s){C+='<img onerror=this.parentNode.removeChild(this) src='+R[1]+s+R[3]+'>'};D(b)};void(0)">SetGen</a>拖到书签栏上或收藏夹里(IE显示收藏夹的快捷键是Ctrl+I)。
 
-		</li>
-		<li><b>IE6浏览器</b><br>
-			把<a href='javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(c){e=C=" ";z=c+m;c=c>0?c:0;for(i=c;i<z;i++){p="";t=(i+p).length;for(j=0;j<l-t;j++){p+="0"}i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)}U=e+"<a href=# onclick=D(";V=")>";W="</a>";T="<hr><form onsubmit=D(this.b.value*1)><input name=b>"+(c?U+(c-m)+V+"<"+c+W:e)+U+z+V+z+">"+W+"</form><hr>";document.body.innerHTML=T+C+T};a=function(c){C+="<img onerror=this.removeNode() src="+R[1]+c+R[3]+">"};D(b)}'>SetGen</a>拖到收藏夹里(显示收藏夹的快捷键是Ctrl+I)。
-		</li>
-	</ul>
-	<h2>使用情景</h2>
-	<p style="margin-left:20px;">用浏览器查看图片时，如果图片的URL里有看起来像序号的数字时，点击这个小书签。它会解析图片的URL并尝试显示相邻序号的图片。</p>
-	<p style="margin-left:20px;">例如：</p>
-	<ul>
-		<li><a href="http://www.wallcoo.com/flower/Amazing_Color_Flowers_2560x1600/wallpapers/1024x768/Amazing_Flower_28.jpg">http://www.wallcoo.com/flower/Amazing_Color_Flowers_2560x1600/wallpapers/1024x768/Amazing_Flower_<b>28</b>.jpg</a></li>
-		<li><a href="http://img9.zol.com.cn/desk_pic/big_462/461365.jpg">http://img9.zol.com.cn/desk_pic/big_462/<b>461365</b>.jpg</a></li>
-		<li><a href="http://bizhi.zhuoku.com/2011/07/06/xiaoya/xiaoya01.jpg">http://bizhi.zhuoku.com/2011/07/06/xiaoya/xiaoya<b>01</b>.jpg</a></li>
-	</ul>
-</div>
+			</li>
+			<li><b>IE6浏览器</b><br>
+				把<a href='javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(c){e=C=" ";z=c+m;c=c>0?c:0;for(i=c;i<z;i++){p="";t=(i+p).length;for(j=0;j<l-t;j++){p+="0"}i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)}U=e+"<a href=# onclick=D(";V=")>";W="</a>";T="<hr><form onsubmit=D(this.b.value*1)><input name=b>"+(c?U+(c-m)+V+"<"+c+W:e)+U+z+V+z+">"+W+"</form><hr>";document.body.innerHTML=T+C+T};a=function(c){C+="<img onerror=this.removeNode() src="+R[1]+c+R[3]+">"};D(b)}'>SetGen</a>拖到收藏夹里(显示收藏夹的快捷键是Ctrl+I)。
+			</li>
+		</ul>
+		<h2>使用情景</h2>
+		<p style="margin-left:20px;">用浏览器查看图片时，如果图片的URL里有看起来像序号的数字时，点击这个小书签。它会解析图片的URL并尝试显示相邻序号的图片。</p>
+		<p style="margin-left:20px;">例如：</p>
+		<ul>
+			<li><a href="http://www.wallcoo.com/flower/Amazing_Color_Flowers_2560x1600/wallpapers/1024x768/Amazing_Flower_28.jpg">http://www.wallcoo.com/flower/Amazing_Color_Flowers_2560x1600/wallpapers/1024x768/Amazing_Flower_<b>28</b>.jpg</a></li>
+			<li><a href="http://img9.zol.com.cn/desk_pic/big_462/461365.jpg">http://img9.zol.com.cn/desk_pic/big_462/<b>461365</b>.jpg</a></li>
+			<li><a href="http://bizhi.zhuoku.com/2011/07/06/xiaoya/xiaoya01.jpg">http://bizhi.zhuoku.com/2011/07/06/xiaoya/xiaoya<b>01</b>.jpg</a></li>
+		</ul>
+	</div>
+</body>
+</html>
