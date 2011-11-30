@@ -26,14 +26,10 @@
 </head>
 <body>
 	<h3>"安装"到浏览器</h3>
-	<ul>
-		<li><b>非IE6浏览器</b><br>
-			把<a href="javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(d){e=C=' ';z=d+m;d=d>0?d:0;for(i=d;i<z;i++){p='';t=(i+p).length;for(j=0;j<l-t;j++){p+='0'};i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)};U=e+'<a href=# onclick=D(';V=')>';W='</a>';T='<hr><center><form onsubmit=D(this.b.value*1)>'+(d?U+(d-m)+V+'<'+d+W:e)+'<input name=b>'+U+z+V+z+'>'+W+'</form><hr>';document.body.innerHTML=T+C+T};a=function(s){C+='<img onerror=this.parentNode.removeChild(this) src='+R[1]+s+R[3]+'>'};D(b)};void(0)">SetGen</a>拖到书签栏上或收藏夹里(IE显示收藏夹的快捷键是Ctrl+I)。
-		</li>
-		<li><b>IE6浏览器</b><br>
-			把<a href='javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location.href)){l=R[2].length;b=R[2]*1;D=function(c){e=C=" ";z=c+m;c=c>0?c:0;for(i=c;i<z;i++){p="";t=(i+p).length;for(j=0;j<l-t;j++){p+="0"}i==b?h=l-t:0;t<l?(a(p+i),h?0:a(i)):a(i)}U=e+"<a href=# onclick=D(";V=")>";W="</a>";T="<hr><form onsubmit=D(this.b.value*1)><input name=b>"+(c?U+(c-m)+V+"<"+c+W:e)+U+z+V+z+">"+W+"</form><hr>";document.body.innerHTML=T+C+T};a=function(c){C+="<img onerror=this.removeNode() src="+R[1]+c+R[3]+">"};D(b)}'>SetGen</a>拖到收藏夹里(显示收藏夹的快捷键是Ctrl+I)。
-		</li>
-	</ul>
+	<p>
+			把<a style="cursor:move" href="javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location))l=R[2][L='length'],D=function(d){C='';z=d+m;d=d>0?d:0;U='<a%20href=javascript:D(';T='<hr><center><form%20onsubmit=D(+this.b.value)>'+(d?U+(d-m)+')><'+d+'</a>':C)+'<input%20name=b>'+U+z+')>'+z+'></a>'+'</form><hr>';for(i=d;i<z;i++){p='';t=(i+p)[L];while(p[L]<l-t)p+='0';i==b?h=l-t:0;a(p+i);!h&&l>t&&a(i)};document.body.innerHTML=T+C+T},a=function(s){C+='<img%20onerror=this.parentNode.removeChild(this)%20src='+R[1]+s+R[3]+'>'},D(b=+R[2])">SetGen</a>拖到书签栏上或收藏夹里(IE显示收藏夹的快捷键是Ctrl+I)。
+
+	</p>
 	<h3>使用情景</h3>
 	<p>用浏览器查看图片时，如果图片的URL里有看起来像序号的数字时，点击这个小书签。它会解析图片的URL并尝试显示相邻序号的图片。</p>
 	<p>例如：</p>
