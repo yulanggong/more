@@ -1,7 +1,7 @@
 How to use it?
 --------------
 
-Creat a new bookmark, and paste the code below in the Address(URL) input.
+Create a new bookmark, and paste the code below in the Address(URL) input.
 	
 	javascript:m=20;if(R=/(.*?)(\d{1,16})([^\d]*)$/.exec(location))l=R[2][L='length'],D=function(d){C='';z=d+m;d=d>0?d:0;U='<a%20href=javascript:D(';T='<hr><center><form%20onsubmit=D(+this.b.value)>'+(d?U+(d-m)+')><'+d+'</a>':C)+'<input%20name=b>'+U+z+')>'+z+'></a>'+'</form><hr>';for(i=d;i<z;i++){p='';t=(i+p)[L];while(p[L]<l-t)p+='0';i==b?h=l-t:0;a(p+i);!h&&l>t&&a(i)};document.body.innerHTML=T+C+T},a=function(s){C+='<img%20onerror=this.parentNode.removeChild(this)%20src='+R[1]+s+R[3]+'>'},D(b=+R[2])
 
