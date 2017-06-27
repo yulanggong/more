@@ -1,5 +1,5 @@
 /**
- * SetGen Bookmarklet
+ * More
  */
  
 m = 20;
